@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./src/**/*.{html,js}'],
+  content: ['*.{html,js}'],
   theme: {
     container: {
       padding: {
@@ -26,7 +26,7 @@ module.exports = {
       grey: '#e8f0f1',
     },
     fontFamily: {
-      primary: 'Poppins',
+      primary: ['Poppins, sans-serif'],
     },
     boxShadow: {
       custom1: '0px 2px 40px 0px rgba(8,70,78,.08)',
@@ -36,8 +36,8 @@ module.exports = {
       services: 'url(../../assets/images/services/bg.svg)',
       departments: 'url(../../assets/images/departments/bg.svg)',
       testimonials: 'url(../../assets/images/testimonials/bg.svg)',
-      quoteLeft: 'url(../../assets/images/testimonials/quote-left.svg)',
-      quoteRight: 'url(../../assets/images/testimonials/quote-right.svg)',
+      // quoteLeft: 'url(../../assets/images/testimonials/quote-left.svg)',
+      // quoteRight: 'url(../../assets/images/testimonials/quote-right.svg)',
     },
   },
   plugins: [],

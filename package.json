@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "watch": "tailwindcss -i ./css/input.css -o ./dist/output.css --watch",
-    "build:tailwind": "tailwindcss build -i ./css/input.css -o ./dist/output.css"
+    "build:tailwind": "npx tailwindcss build -i ./css/input.css -o ./dist/output.css"
   },
   "keywords": [],
   "author": "edanTal",
