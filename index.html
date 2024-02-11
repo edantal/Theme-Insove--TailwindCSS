@@ -365,6 +365,66 @@
       </div>
     </section>
 
+    <!--~~~~~~~~~~~~~ APPOINTMENT ~~~~~~~~~~~~~-->
+    <section class="appointment section">
+      <div class="container mx-auto">
+        <h2
+          class="appoitment__title h2 mb-5 xl:mb-[50px] text-center xl:text-left leading-relaxed"
+        >
+          Termin vereinbaren oder anrufen:
+          <span class="text-accent-tertiary inline-block"
+            >+49 (0) 167 552 1418</span
+          >
+        </h2>
+
+        <form class="appointment__form flex flex-col gap-y-5">
+          <div class="flex flex-col xl:flex-row gap-5">
+            <div class="select relative flex items-center">
+              <div class="absolute right-4">
+                <i class="ri-arrow-down-s-line text-[26px] text-primary"></i>
+              </div>
+              <select
+                class="appearance-none outline-none h-full w-full bg-transparent px-4"
+              >
+                <option value="1">Select department</option>
+                <option value="2">department 1</option>
+                <option value="3">department 2</option>
+                <option value="4">department 3</option>
+              </select>
+            </div>
+
+            <div class="select relative flex items-center">
+              <div class="absolute right-4">
+                <i class="ri-arrow-down-s-line text-[26px] text-primary"></i>
+              </div>
+              <select
+                class="appearance-none outline-none h-full w-full bg-transparent px-4"
+              >
+                <option value="1">Select doctor</option>
+                <option value="2">Dr. Vandelay</option>
+                <option value="3">Dr. Varnsen</option>
+                <option value="4">Dr. Pennypecker</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="flex flex-col xl:flex-row gap-5">
+            <input type="text" class="input" placeholder="Full Name" />
+            <input type="text" class="input" placeholder="Phone" />
+          </div>
+
+          <div class="flex flex-col xl:flex-row gap-5">
+            <input type="date" class="input" placeholder="Full Name" />
+            <input type="time" class="input" placeholder="Phone" />
+          </div>
+
+          <button class="btn btn-lg btn-accent self-start" type="submit">
+            Book an appointment
+          </button>
+        </form>
+      </div>
+    </section>
+
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/scrollreveal.min.js"></script>
     <script src="js/main.js"></script>
