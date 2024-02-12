@@ -14,3 +14,15 @@ closeBtn.addEventListener('click', () => {
   closeBtnIcon.classList.toggle(arrowLeftClass)
   closeBtnIcon.classList.toggle(arrowRightClass)
 })
+
+// swiper testimonials
+const swiper = new Swiper('.swiper', {
+  loop: true,
+  autoplay: {
+    delay: 3666,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+})
