@@ -16,13 +16,33 @@ closeBtn.addEventListener('click', () => {
 })
 
 // swiper testimonials
-const swiper = new Swiper('.swiper', {
+const swiperTestimonials = new Swiper('.testimonials__slider', {
   loop: true,
   autoplay: {
     delay: 3666,
   },
   pagination: {
-    el: '.swiper-pagination',
+    el: '.testimonials__slider-pagination',
+    clickable: true,
+  },
+})
+
+// swiper testimonials
+const swiperTeam = new Swiper('.team__slider', {
+  loop: true,
+  autoplay: {
+    delay: 6666,
+  },
+  slidesPerView: 1,
+  spaceBetween: 10,
+  breakpoints: {
+    960: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+  },
+  pagination: {
+    el: '.team__slider-pagination',
     clickable: true,
   },
 })
