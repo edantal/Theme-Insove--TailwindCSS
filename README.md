@@ -10,6 +10,10 @@ Responsive Insove Theme with TailwindCSS
 - [Swiper](https://www.jsdelivr.com/package/npm/swiper)
 - [Scroll Reveal](https://scrollrevealjs.org/)
 
+### Preview
+
+[View Design](https://raw.githubusercontent.com/edantal/Theme-Insove--TailwindCSS/main/preview.jpg)
+
 <!--
 
 ---
